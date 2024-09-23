@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Unity Converter App</title>
+</head>
+
+<body>
+    <section class="wrapper">
+        <section class="convert_container">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="number" name="user_input" id="user_input">
+            <button id="converter_btn">Convert</button>
+        </section>
+        <section class="results_container">
+            <div id="length_box" class="items">
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length_text">0 meters = 0 feet | 0 feet = 0 meters</p>
+            </div>
+            <div id="volume_box" class="items">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume_text">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+            </div>
+            <div id="mass_box" class="items">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass_text">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+            </div>
+        </section>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
